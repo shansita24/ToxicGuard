@@ -21,12 +21,12 @@ Real-time Instagram toxicity detection using NLP.
 cd backend
 pip install -r requirements.txt
 uvicorn app.main:app --reload
+```
 
+### Extension
+- Go to chrome://extensions
+- Enable Developer Mode
+- Load unpacked → select extension/
 
-Extension
-Go to chrome://extensions
-Enable Developer Mode
-Load unpacked → select extension/
-API
-
+### API
 http://127.0.0.1:8000/docs
