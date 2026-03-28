@@ -2,4 +2,3 @@ fastapi
 uvicorn
 transformers
 pydantic
-pip install fastapi uvicorn transformers pydantic
