@@ -1,5 +1,6 @@
 from transformers import pipeline
 import re
+from .schemas import BLACKLIST
 
 # -----------------------------
 # CONFIG
@@ -15,16 +16,6 @@ classifier = pipeline(
     model=MODEL_NAME,
     device=0 if False else -1  # CPU safe; change if GPU needed
 )
-
-# -----------------------------
-# HINGLISH / INDIAN ABUSE LIST
-# -----------------------------
-BLACKLIST = [
-    "madarchod", "bhenchod", "chutiya", "randi",
-    "kutta", "kamine", "harami", "gandu",
-    "bc", "mc", "lund", "bakchod",
-    "fuck", "idiot", "stupid", "mental"
-]
 
 # -----------------------------
 # CLEANING FUNCTION
