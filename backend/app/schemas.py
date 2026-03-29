@@ -49,4 +49,41 @@ BLACKLIST = [
     # Milder Bullying Insults (still often flagged as toxic)
     "pagal", "bewakuf", "idiot", "stupid", "loser", "fool", "donkey",
     "ullu", "gadha", "kutta", "kuttiya", "harami", "kamina"
+
+    # Very Common Vulgar Tamil Abuses (Romanized)
+    "punda", "punde", "pundai", "punda ma", "pear punda",
+    "koodhi", "kuthi", "koothi", "kuthi mayir", "koothi mayir",
+    "thayoli", "thayoli", "thaayoli", "thaiyoli",
+    "thevidiya", "thevudiya", "thevidiyaa", "thevudiyaa",
+    "thevidiya paiyan", "thevudiyaa paiyan",
+    "otha", "ootha", "ommaala", "ommala okka", "ommaala okka",
+    "pool", "poolu", "poola oombu", "pool oombi",
+    "sunni", "soothu", "shithi",
+    "mayiru", "mairandi", "mayiraandi",
+    "baadu", "baadu",
+    "oombu", "oombuda",
+
+    # Family-based Severe Abuses (similar to Hindi madarchod/behenchod)
+    "thangaiyoli", "okkaravoli", "thangai oli",
+    "thayoli",  # motherfucker equivalent
+
+    # Other Common Tamil Insults & Slurs
+    "losu", "loos u", "paithiyam", "muttaal", "koomuttai",
+    "eruma", "yeruma", "yerumamaadu", "erumai",
+    "dhandasoru", "dhanda soru",
+    "mundhirikottai", "mundam",
+    "puramboku", "arivu ketta mundam",
+    "moodevi", "kamunaati",
+    "kutti sevuru", "karumam", "sori naai",
+    "dubakoor", "dubukku",
+
+    # Mixed / Common Phrases used in comments
+    "punda mavane", "punda thambi", "thevidiya paiya",
+    "poola oombu", "ommaala okka", "thayoli saale",
+    "kuthi mayir", "mayiraandi",
+    "otha da", "oombu da",
+
+    # Milder Bullying / Insult words (still often toxic)
+    "idiot", "stupid", "pagal", "loosu", "muttaal", "paithiyam",
+    "gadha", "eruma", "kutta", "naai"
 ]
